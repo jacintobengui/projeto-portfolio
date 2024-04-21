@@ -1,0 +1,287 @@
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+}
+
+#Inicio {
+    padding-top: 150px;
+}
+
+#projetos {
+    padding-top: 5px;
+}
+
+img{
+    object-fit: contain;
+}
+
+header {
+    padding: 10px 30px;
+    border-bottom: 4px solid darkblue;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    overflow: hidden;
+    background-color: black;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+header nav ul li{
+    margin: 10px;
+}
+
+header nav ul li a{
+    padding: 10px;
+    border-radius: 8px;
+}
+
+header nav ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.338);
+}
+
+header nav ul a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#container {
+    background-color: darkblue;
+    width: 510px;
+    margin: 0px auto;
+    padding: 20px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#container #foto-perfil{
+    height: 140px;
+    width: 140px;
+    margin-top: -80px;
+    border-radius: 16px;
+    border: 4px solid white;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+#nivel-academico, #idade {
+    color: darkblue;
+    background-color: white;
+    width: 150px;
+    height: 60px;
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+#nivel-academico h3, #idade h3, #nivel-academico p, #idade p{
+    color: darkblue;  
+}
+
+#perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+#redes-sociais{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+#git-icon {
+    background-color: white;
+    border-radius: 100%;
+}
+
+#informacoes{
+    border: 1px solid white;
+    height: 200px;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#informacoes nav ul{
+    background-color: white;
+    border-radius: 8px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    list-style: none;
+}
+
+#informacoes nav ul li{
+    padding: 10px;
+    width: 33%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#informacoes nav ul li:hover{
+    background-color: rgb(217, 217, 217);
+}
+
+#informacoes nav ul li a{
+    text-decoration: none;
+    color: darkblue;
+    font-weight: 600;
+}
+
+#opcoes {
+    flex: 1;
+    width: 1410px;
+    display: flex;
+}
+
+.opcao {
+    width: 470px;
+    height: 160px;
+    padding: 16px;
+    overflow: auto;
+}
+
+.skill {
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    padding: 8px;
+    gap: 8px;
+    color: black;
+    width: 410px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.skill img{
+    width: 70px;
+    height: 70px;
+}
+
+.opcao:first-child p {
+    background-color: white;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+
+.skill div h3, .skill div p, .opcao p{
+    color: grey;
+}
+
+.skill div h3{
+    margin-bottom: 8px;
+}
+
+#projetos-container{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    margin-top: 64px;
+}
+
+#projetos-container .title{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center; 
+}
+
+.projeto-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+    align-items: center;
+}
+
+.projeto-container .fotos{
+    display: flex;
+    gap: 48px;
+    padding: 24px;
+    align-items: center;
+}
+
+.projeto-container .fotos div{
+    border: 4px solid darkblue;
+    border-radius: 8px;
+    height: 420px;
+    width: 200px;
+}
+
+.projeto-container .fotos div img{
+    height: 100%;
+    width: 100%;
+}
+
+.container-contacto {
+    margin: 200px auto;
+    background-color: darkblue;
+    border-radius: 8px;
+    padding: 24px;
+    width: 600px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-contacto h2{
+    margin-bottom: 16px;
+}
+
+.container-contacto div p{
+    margin-bottom:  8px;
+    
+}
+
+.info {
+    margin-bottom: 8px;
+}
